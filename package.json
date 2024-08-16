@@ -1,0 +1,22 @@
+{
+  "name": "sasslesson",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.html",
+ "scripts": {
+    "compile:sass": "sass --watch sass/main.scss css/style.css"
+},
+  "repository": { 
+    "type": "git",
+    "url": "git+https://github.com/ishakson/sassLesson.git"
+  },
+  "author": "ishakson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishakson/sassLesson/issues"
+  },
+  "homepage": "https://github.com/ishakson/sassLesson#readme",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
