@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "learning",
   "main": "index.html",
- "scripts": {
+  "scripts": {
     "compile:sass": "sass --watch sass/main.scss css/style.css"
-},
-  "repository": { 
+  },
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/ishakson/sassLesson.git"
   },
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ishakson/sassLesson#readme",
   "devDependencies": {
     "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
