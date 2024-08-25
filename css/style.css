@@ -251,11 +251,23 @@ body {
 }
 
 .card {
+  perspective: 150rem;
+}
+.card__side {
   background-color: orangered;
   height: 50rem;
+  transition: all 0.8s;
+  color: #fff;
+  font-size: 2rem;
 }
-.card:hover {
-  transform: rotateY(3deg);
+.card__side--front {
+  background-color: orangered;
+}
+.card__side--back {
+  background-color: green;
+}
+.card:hover .card__side {
+  transform: rotateY(180deg);
 }
 
 .header {
