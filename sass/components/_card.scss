@@ -27,7 +27,7 @@
     &--back {
       transform: rotateY(180deg);
 
-      &--1 {
+      &-1 {
         background-image: linear-gradient(
           to right bottom,
           $color-secondary-light,
@@ -35,7 +35,7 @@
         );
       }
 
-      &--2 {
+      &-2 {
         background-image: linear-gradient(
           to right bottom,
           $color-primary-light,
@@ -43,7 +43,7 @@
         );
       }
 
-      &--3 {
+      &-3 {
         background-image: linear-gradient(
           to right bottom,
           $color-tertiary-light,
